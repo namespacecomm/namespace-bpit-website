@@ -7,7 +7,7 @@ const NavbarContainer = styled.nav`
   width: 100%;
   height: fit-content;
   background-color: transparent;
-  display: flex;
+
   z-index: 99999999;
   flex-direction: column;
   align-items: center;
@@ -18,8 +18,14 @@ const NavbarContainer = styled.nav`
   }
 `;
 
-const LeftContainer = styled.div`
-  flex: 70%;
+const NavbarInnerContainer = styled.div`
+  width: 100%;
+  height: 100px;
+  display: flex;
+`;
+
+const SecondContainer = styled.div`
+  flex: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -32,28 +38,27 @@ const LeftContainer = styled.div`
   }
 `;
 
-const NavbarInnerContainer = styled.div`
-  width: 100%;
-  height: 100px;
-  display: flex;
-`;
-
 const NavbarLinkContainer = styled.div`
   display: flex;
+  padding: 0 20px;
+
+  @media (max-width: 900px) {
+    padding: 0 1px;
+  }
 `;
 
 const NavLinks = styled.div`
   display: flex;
-  gap: 20px;
+  gap: 15px;
 `;
 
 const NavbarLink = styled(Link)`
   color: white;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 400;
   text-decoration: none;
   transition: 200ms ease-in-out;
-  padding: 0.5rem;
+  padding: 0.3rem;
   border-radius: 10px 0 10px 0;
   position: relative;
   @media (max-width: 900px) {
@@ -111,10 +116,11 @@ const NavbarLinkExtended = styled(Link)`
 `;
 
 const Logo = styled.img`
-  margin: 8px;
-  max-width: 180px;
-  height: 60px;
+  height: 120px;
   align-self: center;
+  @media (max-width: 900px) {
+    height: 100px;
+  }
 `;
 
 const OpenLinksButton = styled.button`
@@ -128,7 +134,6 @@ const OpenLinksButton = styled.button`
 
 const NavbarExtendedContainer = styled.div`
   width: 100%;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -152,7 +157,7 @@ const Button = styled.button`
   cursor: pointer;
   transition: 200ms ease-in-out;
   @media (max-width: 900px) {
-    margin: 17px 10px 10px 5px;
+    margin: 5px 5px 5px 5px;
   }
   :hover {
     background-color: #138af2;
@@ -164,9 +169,9 @@ function Navbar() {
   const [activeNavLink, setActiveNavLink] = useState(null);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [partnersDropdownOpen, setPartnersDropdownOpen] = useState(false);
+  //const [isVisible, setIsVisible] = useState(false); // Track navbar visibility
   const dropdownRef = useRef(null);
   const partnersDropdownRef = useRef(null);
-
   const location = useLocation();
 
   useEffect(() => {
@@ -204,10 +209,11 @@ function Navbar() {
   return (
     <NavbarContainer isOpen={isOpen}>
       <NavbarInnerContainer>
-        <LeftContainer>
+        <SecondContainer>
           <NavbarLogo to="/">
-            <Logo src="../.././img/logo5.png" alt="Logo" />
+            <Logo src="../.././img/horizontal-5.png" alt="Logo" />
           </NavbarLogo>
+
           <NavLinks>
             <NavbarLink
               to="/projects"
@@ -244,9 +250,10 @@ function Navbar() {
                 )}
               </div>
               <DropdownMenu ref={dropdownRef} show={dropdownOpen}>
-                
                 <DropdownItem to="/techx">TechXcelerate</DropdownItem>
-                <DropdownItem to="/nsos">nameSpace Season of Open Source</DropdownItem>
+                <DropdownItem to="/nsos">
+                  nameSpace Season of Open Source
+                </DropdownItem>
                 <DropdownItem to="/algorena">Algorena</DropdownItem>
                 <DropdownItem to="/hackhazards">HACKHAZARDS</DropdownItem>
                 <DropdownItem to="/events">All Events</DropdownItem>
@@ -262,6 +269,14 @@ function Navbar() {
                   <hr className="border-3 rounded-full" />
                 )}
               </div>
+            </NavbarLink>
+            <NavbarLink
+              to="https://namespacecomm.substack.com/"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <div>Newsletter</div>
             </NavbarLink>
             <NavbarLink
               to="/team"
@@ -286,19 +301,12 @@ function Navbar() {
               </div>
             </NavbarLink>
             <NavbarLink
-              to="http://blog.namespacecomm.in/"
-              target="_blank"
-              without
-              rel="noreferrer"
-              className={
-                activeNavLink === "/http://blog.namespacecomm.in/"
-                  ? "active"
-                  : ""
-              }
+              to="/chapters"
+              className={activeNavLink === "/chapters" ? "active" : ""}
             >
               <div>
-                Blog
-                {activeNavLink === "/http://blog.namespacecomm.in/" && (
+                Chapters
+                {activeNavLink === "/chapters" && (
                   <hr className="border-3 rounded-full" />
                 )}
               </div>
@@ -309,7 +317,7 @@ function Navbar() {
               onClick={handlePartnersDropdownToggle}
             >
               <div>
-                Partner with us
+                Partners
                 {activeNavLink === "/partners" && (
                   <hr className="border-3 rounded-full" />
                 )}
@@ -318,12 +326,7 @@ function Navbar() {
                 ref={partnersDropdownRef}
                 show={partnersDropdownOpen}
               >
-                <DropdownItem
-                  as="a"
-                  href="https://lush-bugle-f9b.notion.site/The-nameSpace-Community-Partnership-Program-2024-25-03b7367a954e4a96b5a3ced32af14fca"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <DropdownItem to="/communitypartner">
                   Become a Community Partner
                 </DropdownItem>
 
@@ -332,8 +335,16 @@ function Navbar() {
                 </DropdownItem>
               </DropdownMenu>
             </NavbarLink>
+            <NavbarLink
+              to="http://blog.namespacecomm.in/"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <div>Blog</div>
+            </NavbarLink>
 
-          <NavbarLink
+            {/* <NavbarLink
               to="/CodingChallenge"
               className={activeNavLink === "/CodingChallenge" ? "active" : ""}
             >
@@ -343,27 +354,24 @@ function Navbar() {
                   <hr className="border-3 rounded-full" />
                 )}
               </div>
-            </NavbarLink>
+            </NavbarLink> */}
+          </NavLinks>
 
-            </NavLinks>
-
-          <div className="flex flex-row md:flex-col md:space-x-6 items-center">
-            <NavbarLinkContainer className="w-full md:w-auto ">
-              <a
-                href="https://linktr.ee/namespacecomm"
-                target="_blank"
-                without
-                rel="noreferrer"
-                className="w-full"
-              >
-                <Button className="w-full">Connect with us</Button>
-              </a>
-              <OpenLinksButton className="md:ml-6 mt-4 md:mt-0">
-                <Hamburger toggled={isOpen} toggle={setOpen} />
-              </OpenLinksButton>
-            </NavbarLinkContainer>
-          </div>
-        </LeftContainer>
+          <NavbarLinkContainer className="flex flex-row md:flex-col md:space-x-1 items-center w-auto">
+            <a
+              href="https://linktr.ee/namespacecomm"
+              target="_blank"
+              without
+              rel="noreferrer"
+              className="w-full"
+            >
+              <Button className="w-full">Connect with us</Button>
+            </a>
+            <OpenLinksButton className="mx-2">
+              <Hamburger toggled={isOpen} toggle={setOpen} />
+            </OpenLinksButton>
+          </NavbarLinkContainer>
+        </SecondContainer>
       </NavbarInnerContainer>
       {isOpen && (
         <NavbarExtendedContainer>
@@ -371,16 +379,39 @@ function Navbar() {
           <NavbarLinkExtended to="/projects">Projects</NavbarLinkExtended>
           <NavbarLinkExtended to="/events">Events</NavbarLinkExtended>
           <NavbarLinkExtended to="/programs">Programs</NavbarLinkExtended>
+          <NavbarLinkExtended 
+          to="https://namespacecomm.substack.com/"
+          target="_blank"
+          without
+          rel="noreferrer">
+            Newsletter
+          </NavbarLinkExtended>
+          
           <NavbarLinkExtended to="/team">Team</NavbarLinkExtended>
           <NavbarLinkExtended to="/resources">Resources</NavbarLinkExtended>
-          <NavbarLinkExtended to="http://blog.namespacecomm.in/" target="_blank" without rel="noreferrer">Blog</NavbarLinkExtended>
           <NavbarLinkExtended to="/techx">TechXcelerate</NavbarLinkExtended>
-          <NavbarLinkExtended to="/nsos">nameSpace Season of Open Source</NavbarLinkExtended>
+          <NavbarLinkExtended to="/nsos">
+            nameSpace Season of Open Source
+          </NavbarLinkExtended>
           <NavbarLinkExtended to="/algorena">Algorena</NavbarLinkExtended>
           <NavbarLinkExtended to="/hackhazards">HACKHAZARDS</NavbarLinkExtended>
-          <NavbarLinkExtended to="https://lush-bugle-f9b.notion.site/The-nameSpace-Community-Partnership-Program-2024-25-03b7367a954e4a96b5a3ced32af14fca" target="_blank" without rel="noreferrer">Become a Community Partner</NavbarLinkExtended>
-          <NavbarLinkExtended to="/hackhazards">Become a Campus Evangelist</NavbarLinkExtended>
-          <NavbarLinkExtended to="/codingchallenge">Coding Challenge</NavbarLinkExtended>
+          <NavbarLinkExtended to="/communitypartner">
+            Become a Community Partner
+          </NavbarLinkExtended>
+          <NavbarLinkExtended to="/campusevangelist">
+            Become a Campus Evangelist
+          </NavbarLinkExtended>
+          <NavbarLinkExtended
+            to="http://blog.namespacecomm.in/"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
+            Blog
+          </NavbarLinkExtended>
+          {/* <NavbarLinkExtended to="/codingchallenge">
+            Coding Challenge
+          </NavbarLinkExtended> */}
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>

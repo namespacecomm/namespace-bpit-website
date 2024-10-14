@@ -1,8 +1,19 @@
 export const images = [
-  { src: "./img/2.jpg", alt: "Image 1" },
-  { src: "./img/3.jpeg", alt: "Image 2" },
+  { src: "./img/8.JPG", alt: "Image 7" },
+  { src: "./img/10.jpg", alt: "Image 9" },
   { src: "./img/4.jpg", alt: "Image 3" },
+  { src: "./img/11.JPG", alt: "Image 10" },
+  { src: "./img/3.jpeg", alt: "Image 2" },
+  { src: "./img/3.jpg", alt: "Image 3" },
   { src: "./img/5.jpg", alt: "Image 4" },
+  { src: "./img/16.JPG", alt: "Image 15" },
+  { src: "./img/6.jpeg", alt: "Image 5" },
+  { src: "./img/9.jpg", alt: "Image 8" },
+  { src: "./img/12.jpg", alt: "Image 11" },
+  { src: "./img/13.jpg", alt: "Image 12" },
+  { src: "./img/14.jpg", alt: "Image 13" },
+  { src: "./img/15.jpg", alt: "Image 14" },
+
 ];
 
 export const founderImages = [
@@ -244,15 +255,6 @@ export const members1 = [
     linkedin: "",
     instagram: "",
   },
-
-  {
-    name: "Arsh Tiwari",
-    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720981064/Arsh_Tiwari_oocqph.jpg",
-    position: "Junior Council",
-    github: "https://github.com/ArshTiwari2004",
-    linkedin: "https://leetcode.com/u/ArshTiwari/",
-    instagram: "https://www.instagram.com/_.arshtiwari/",
-  },
   {
     name: "Shreya Jaiswal",
     image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720980759/WhatsApp_Image_2024-07-14_at_11.33.01_PM_qlbl3b.jpg",
@@ -261,6 +263,15 @@ export const members1 = [
     linkedin: "http://www.linkedin.com/in/shreya-jaiswal17",
     instagram: "",
   },
+  {
+    name: "Arsh Tiwari",
+    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720981064/Arsh_Tiwari_oocqph.jpg",
+    position: "Junior Council",
+    github: "https://github.com/ArshTiwari2004",
+    linkedin: "https://leetcode.com/u/ArshTiwari/",
+    instagram: "https://www.instagram.com/_.arshtiwari/",
+  },
+ 
   {
     name: "Lavanya Varshney",
     image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720981024/Lavanya_Varshney_cqtqkd.jpg",
@@ -290,7 +301,7 @@ export const members1 = [
 
   {
     name: "Arush Karnatak",
-    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720981057/Arush_Karnatak_qyve7t.jpg",
+    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1728229848/IMG_20240408_175646_efb1c2.jpg",
     position: "Junior Council",
     github: "http://github.com/karush2807",
     linkedin: "https://www.linkedin.com/in/arush-karnatak-894bb52a1/",
@@ -785,7 +796,7 @@ export const allmembers = [
   {
 
     name: "Arush Karnatak",
-    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720981057/Arush_Karnatak_qyve7t.jpg",
+    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1728229848/IMG_20240408_175646_efb1c2.jpg",
     position: "Junior Council",
     github: "http://github.com/karush2807",
     linkedin: "https://www.linkedin.com/in/arush-karnatak-894bb52a1/",

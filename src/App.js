@@ -66,7 +66,7 @@ import Cryptocurrency from "./Pages/AllResources/blockChainCards/Cryptocurrency"
 import Supplychain from "./Pages/AllResources/blockChainCards/Supplychain";
 import Decentralized from "./Pages/AllResources/blockChainCards/Decentralized";
 import Ethereum from "./Pages/AllResources/blockChainCards/Ethereum";
-import Hyperledger from "./Pages/AllResources/blockChainCards/Hyperledger";
+import { Hyperledger } from "./Pages/AllResources/blockChainCards/Hyperledger";
 import Truffle from "./Pages/AllResources/blockChainCards/Truffle";
 import Dsa from "./Pages/AllResources/Dsa/Dsa";
 import { Rust } from "./Pages/AllResources/blockChainCards/Rust";
@@ -96,6 +96,7 @@ import TechX from "./Pages/TechXcelerate/Techx";
 import Hackhazards from "./Pages/Hackhazards/Hackhazards";
 import CampusEvangelist from "./Pages/CampusEvangelist/CampusEvangelist";
 import CodingChallenge from "./Pages/CodingChallenge/CodingChallenge";
+import Chapters from "./Pages/Chapters/Chapters";
 
 const Container = styled.div`
   scrollbar-width: none;
@@ -112,7 +113,7 @@ function App() {
 
   return (
     <>
-      <Container>
+      <Container className="overflow-x-hidden">
         <BrowserRouter>
           <ScrollToTop />
           <Navbar />
@@ -134,6 +135,7 @@ function App() {
               <Route path="sortalgo" element={<SortAlgo />} />
               <Route path="searchalgo" element={<SearchAlgo />} />
               <Route path="dynamicpro" element={<DpAlgo />} />
+              <Route path="chapters" element={<Chapters />} />
 
               <Route path="pyresource" element={<Python />} />
               <Route path="mlops" element={<MLOps />} />
