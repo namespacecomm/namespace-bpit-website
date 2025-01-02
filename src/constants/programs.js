@@ -1,4 +1,10 @@
 export const programsList = [
+
+    {
+        name:"NS-HACKS",
+        description:"NS-HACKS is an exclusive hackathon for the NAMESPACE BPIT community, where members come together to work on innovative problem statements, turning their ideas into impactful solutions. Teams collaborate to create projects that not only showcase their technical and creative skills but also contribute to the growth of the community. The projects developed during NS-HACKS are recognized as official community projects of NAMESPACE BPIT and The NAMESPACE Community.",
+        image: "./img/internal-programs/nshack.jpeg",
+    },
     {
         name: "AlgoRumble",
         description:"AlgoRumble is nameSpace's bi-weekly Data Structures and Algorithms contest, an engaging event designed to test participants' problem-solving skills and algorithmic ability. The problems are set by the members themselves on a rotating basis while the others participate in it and try to solve in the minimum time. This program fosters the spirit of healthy competition among the members.",
