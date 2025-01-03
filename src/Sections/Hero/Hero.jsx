@@ -10,7 +10,7 @@ import About from "../About/About";
 import Teams from "../Teams/Teams";
 import Testimonials from "../Testimonials/Testimonials";
 import Contact from "../Contact/Contact";
-import SocialMedia from "../SocialMedia/SocialMedia";
+//import SocialMedia from "../SocialMedia/SocialMedia";
 import BackToTopButton from "../../components/BackToTop";
 import Founder from "../Founder/Founder";
 // const Section = styled.div`
@@ -246,7 +246,7 @@ const Hero = () => {
       <About />
       <Teams />
       <Founder />
-      <SocialMedia />
+      
       {/* <Testimonials /> */}
       <Contact />
     </>
