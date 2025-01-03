@@ -42,10 +42,10 @@ function Programs() {
                                 </h2>
                                 <br></br>
                                 <p className="text-xl font-bold leading-tight text-transparent bg-clip-text  bg-gradient-to-r from-amber-500 to-pink-500 " >
-                                    nameSpace conducts multiple internal
+                                    NAMESPACE conducts multiple internal
                                     programs exclusively for its members. They
                                     focus on the technical development of all
-                                    the individuals concerened.
+                                    the individuals concerned.
                                 </p>
                             </div>
 
