@@ -258,6 +258,7 @@ If you have any feedback or suggestions please reach out to maintainers.
 - [Pradeepto Sarkar](https://github.com/pradeeptosarkar)
 - [Manan khandelwal](https://github.com/mnnkhndlwl)
 - [Pranav Barthwal](https://github.com/PranavBarthwal)
+- [Diksha Sharma](https://github.com/DikshaDhasmana)
 
 Or you can create a <a href="https://github.com/namespacecomm/namespace-community-website/issues/new?assignees=&labels=feature%2CReview+Required&template=feature_request.yml&title=%5BFeature%5D%3A+">issue</a> and mention there, which features can make this Project better.
 
