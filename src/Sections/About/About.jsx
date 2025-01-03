@@ -94,17 +94,9 @@ const About = () => {
             <ImageCarousel images={images} />
           </Left>
           <Right>
-            <Title>About nameSpace</Title>
+            <Title>About NAMESPACE BPIT</Title>
             <Desc>
-              The nameSpace Community is an organization of like-minded
-              individuals who share a passion for technology and are committed
-              to helping each other become the best developers they can be.
-              Whether you're just starting out in your coding journey or a
-              seasoned pro, our community is a place where you can connect with
-              other tech enthusiasts, share your knowledge, and grow your
-              skills. Founded in 2022, nameSpace has quickly grown to become one
-              of the largest technical communities in Delhi-NCR and is racing towards
-              further expansion across India. 
+            NAMESPACE BPIT (formerly NSCC BPIT), is the dynamic technical society of Bhagwan Parshuram Institute of Technology (BPIT) and a subset of The NAMESPACE Community, dedicated to fostering a vibrant community focused on peer support, tech awareness, skill development, and innovation. We organize various activities such as webinars, contests, and events to promote learning and growth among our members. At NAMESPACE BPIT, we cultivate a strong coding culture and provide a platform for members to interact with peers and seniors, creating an environment of collaboration and continuous learning. 
             </Desc>
           </Right>
         </Container>
