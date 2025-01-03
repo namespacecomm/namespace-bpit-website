@@ -256,7 +256,6 @@ You can refer to the following articles on the basics of Git and Github and also
 If you have any feedback or suggestions please reach out to maintainers.
 
 - [Pradeepto Sarkar](https://github.com/pradeeptosarkar)
-- [Manan khandelwal](https://github.com/mnnkhndlwl)
 - [Pranav Barthwal](https://github.com/PranavBarthwal)
 - [Diksha Sharma](https://github.com/DikshaDhasmana)
 
