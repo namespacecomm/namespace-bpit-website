@@ -104,11 +104,11 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Team nameSpace
+          Team NAMESPACE
         </a>
       </CenterText>
       <CenterText>
-        <p>Reach out to us via</p>
+        <p>Reach out to The NAMESPACE Community via</p>
         <SocialIcons>
           <a href="http://instagram.com/namespacecomm" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={24} />
@@ -139,9 +139,41 @@ const Footer = () => {
           </a>
         </SocialIcons>
       </CenterText>
-      <CenterText>© {year} The nameSpace Community and Organization</CenterText>
+      <CenterText>
+        <p>Reach out to NAMESPACE BPIT via</p>
+        <SocialIcons>
+          <a href="https://www.instagram.com/namespacebpit/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={24} />
+          </a>
+          <a href="https://www.linkedin.com/company/namespace-bpit" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={24} />
+          </a>
+          <a href="https://www.youtube.com/@namespacecomm" target="_blank" rel="noopener noreferrer">
+            <FaYoutube size={24} />
+          </a>
+          <a href="https://github.com/namespacecomm" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={24} />
+          </a>
+          <a href="https://twitter.com/namespacecomm" target="_blank" rel="noopener noreferrer">
+            <FaXTwitter size={24} />
+          </a>
+          <a href="https://whatsapp.com/channel/0029VabtgrVKLaHjzSXEL52f" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp size={24} />
+          </a>
+          <a href="https://discord.gg/z2fTnXjKMm" target="_blank" rel="noopener noreferrer">
+            <FaDiscord size={24} />
+          </a>
+          <a href="https://t.me/namespacecomm" target="_blank" rel="noopener noreferrer">
+            <FaTelegram size={24} />
+          </a>
+          <a href="mailto:namespace@bpitindia.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope size={24} />
+          </a>
+        </SocialIcons>
+      </CenterText>
+      <CenterText>© {year} The NAMESPACE Community and Organization</CenterText>
       <TrademarkText>
-        "HACKHAZARDS", "TechXcelerate", "TechTrek", "AlgoRumble", "TechRumble", "Game of Codes", "nameSpace" and "The nameSpace Community" are the registered trademarks of The nameSpace Community Organization and its affiliates. All rights reserved.
+        "HACKHAZARDS", "TechXcelerate", "TechTrek", "AlgoRumble", "TechRumble", "Game of Codes", "NAMESPACE" and "The NAMESPACE Community" are the registered trademarks of The NAMESPACE Community Organization and its affiliates. All rights reserved to NAMESPACE BPIT and The NAMESPACE Community.
       </TrademarkText>
     </Section>
   );
