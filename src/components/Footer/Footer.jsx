@@ -171,10 +171,7 @@ const Footer = () => {
           </a>
         </SocialIcons>
       </CenterText>
-      <CenterText>© {year} The NAMESPACE Community and Organization</CenterText>
-      <TrademarkText>
-        "HACKHAZARDS", "TechXcelerate", "TechTrek", "AlgoRumble", "TechRumble", "Game of Codes", "NAMESPACE" and "The NAMESPACE Community" are the registered trademarks of The NAMESPACE Community Organization and its affiliates. All rights reserved to NAMESPACE BPIT and The NAMESPACE Community.
-      </TrademarkText>
+      <CenterText>© {year} The NAMESPACE Community, including NAMESPACE BPIT. All rights reserved.</CenterText>
     </Section>
   );
 };
