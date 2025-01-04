@@ -9,7 +9,7 @@ import {
   FaWhatsapp,
   FaYoutube
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaRightFromBracket, FaXTwitter } from "react-icons/fa6";
 import styled from "styled-components";
 
 const Section = styled.footer`
@@ -43,6 +43,7 @@ const CenterText = styled.div`
   text-align: center;
   width: 100%;
   margin: 20px 0;
+
 
   @media (max-width: 768px) {
     margin: 16px 0;
@@ -104,11 +105,14 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Team nameSpace
+          Team NAMESPACE
         </a>
       </CenterText>
+
+      <div style={{ display: 'flex', justifyContent: 'space-between', gap: '250px'  }}>
+      <div>
       <CenterText>
-        <p>Reach out to us via</p>
+      <p>Reach out to The NAMESPACE Community via</p>
         <SocialIcons>
           <a href="http://instagram.com/namespacecomm" target="_blank" rel="noopener noreferrer">
             <FaInstagram size={24} />
@@ -138,11 +142,34 @@ const Footer = () => {
             <FaEnvelope size={24} />
           </a>
         </SocialIcons>
-      </CenterText>
-      <CenterText>© {year} The nameSpace Community and Organization</CenterText>
-      <TrademarkText>
-        "HACKHAZARDS", "TechXcelerate", "TechTrek", "AlgoRumble", "TechRumble", "Game of Codes", "nameSpace" and "The nameSpace Community" are the registered trademarks of The nameSpace Community Organization and its affiliates. All rights reserved.
-      </TrademarkText>
+        </CenterText>
+      </div>
+      
+      <div>
+      <CenterText>
+      <p>Reach out to NAMESPACE BPIT via</p>
+        <SocialIcons>
+          <a href="https://www.instagram.com/namespacebpit/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram size={24} />
+          </a>
+          <a href="https://www.linkedin.com/company/namespace-bpit" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={24} />
+          </a>
+          <a href="https://github.com/namespacecomm/namespace-bpit-website" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={24} />
+          </a>
+          <a href="https://chat.whatsapp.com/EcpvPvEU0CwFRCaMNrBCch" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp size={24} />
+          </a>
+          <a href="mailto:namespace@bpitindia.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope size={24} />
+          </a>
+        </SocialIcons>
+        </CenterText>
+      </div>
+    </div>
+
+      <CenterText>© {year} The NAMESPACE Community, including NAMESPACE BPIT. All rights reserved</CenterText>
     </Section>
   );
 };
