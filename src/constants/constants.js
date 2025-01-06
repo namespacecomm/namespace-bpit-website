@@ -822,6 +822,14 @@ export const allmembers = [
     instagram: "",
   },
   {
+    name: "	Aditi Sharma",
+    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1736010694/Screenshot_20241202-193708_2_-_Aditi_Sharma_tzk4m8.png",
+    position: "Junior Council",
+    github: "https://github.com/thtsunshine/",
+    linkedin: "https://www.linkedin.com/in/aditi-sharma-399a44327/		",
+    instagram: "",
+  },
+  {
     name: "Arsh Tiwari",
     image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720981064/Arsh_Tiwari_oocqph.jpg",
     position: "Junior Council",
@@ -840,13 +848,22 @@ export const allmembers = [
 
   },
   {
-    name: "Chandan Sahoo",
-    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720981033/Chandan_Sahoo_xmu3pb.png",
+    name: "	Jatin Chhabra",
+    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1736010667/image_1_-_Jatin_Chhabra_lssukr.jpg",
     position: "Junior Council",
-    github: "https://github.com/chandanSahoo-cs",
-    linkedin: "https://www.linkedin.com/in/chandansahoo-cs/",
-    instagram: "https://www.instagram.com/chandan_sahoo001/",
+    github: "https://github.com/Jatinchhabra22",
+    linkedin: "https://www.linkedin.com/in/jatin-chhabra-2b0455289/		",
+    instagram: "https://www.instagram.com/zateeeenn/",
   },
+  {
+    name: "Krish Gupta",
+    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1736010637/new_edited_-_Krish_Gupta_u7xxp0.png",
+    position: "Junior Council",
+    github: "https://github.com/KrishGuptaXO	",
+    linkedin: "https://www.linkedin.com/in/krish-gupta-b2b3b7287",
+    instagram: "https://www.instagram.com/illusioner.kg_02	",
+  },
+ 
   {
     name: "Krish Mishra",
     image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720981028/Krish_Mishra_pcmpgq.jpg",
@@ -872,6 +889,22 @@ export const allmembers = [
     instagram: "https://www.instagram.com/nibedan_3006/",
   },
   {
+    name: "Raghav Bansal",
+    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1736010655/Screenshot_2024-10-05_151038-photoaidcom-cropped_-_Raghav_bansal_femaju.png",
+    position: "Junior Council",
+    github: "https://github.com/RaghavBansal-2006	",
+    linkedin: "https://www.linkedin.com/in/raghavbansal2006/	",
+    instagram: "https://www.instagram.com/raghavbansal__18/		",
+  },
+  {
+    name: "	Ranjan",
+    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1736010681/ranjan_pic_-_Ranjan_Kumar_azym8a.jpg",
+    position: "Junior Council",
+    github: "https://github.com/just4codingonly",
+    linkedin: "https://www.linkedin.com/in/ranjan-kumar-586aa2278/		",
+    instagram: "https://www.instagram.com/r4__ranjan/?next=%2F",
+  },
+  {
     name: "Romanch Roshan Singh ",
     image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720980996/Romanch_sjujtx.jpg",
     position: "Junior Council",
@@ -886,6 +919,15 @@ export const allmembers = [
     github: "https://github.com/shreyajaiswal17",
     linkedin: "http://www.linkedin.com/in/shreya-jaiswal17",
     instagram: "https://www.instagram.com/shreya.j17/",
+  },
+  
+  {
+    name: "	Shrishti Tomar",
+    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1736010712/Snapchat-1678896509_-_Shrishti_Tomar_hgbrpq.jpg",
+    position: "Junior Council",
+    github: "",
+    linkedin: "",
+    instagram: "",
   },
   {
     name: "Vang Garg",
@@ -903,6 +945,9 @@ export const allmembers = [
     linkedin: "",
     instagram: "",
   },
+  
+  
+
 
   {
     image:
@@ -996,6 +1041,14 @@ export const allmembers = [
     github: "https://github.com/Aanyaa26",
     linkedin: "https://www.linkedin.com/in/aanya-sharma-2841b2248",
     instagram: "https://www.instagram.com/aannyaasharma",
+  },
+  {
+    name: "Chandan Sahoo",
+    image: "https://res.cloudinary.com/dyfhx6mqp/image/upload/v1720981033/Chandan_Sahoo_xmu3pb.png",
+    position: "EX-Junior Council",
+    github: "https://github.com/chandanSahoo-cs",
+    linkedin: "https://www.linkedin.com/in/chandansahoo-cs/",
+    instagram: "https://www.instagram.com/chandan_sahoo001/",
   },
   {
     name: "Gauransh Goel",
