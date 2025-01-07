@@ -1,41 +1,41 @@
 <div id="top"></div>
 
-<h1 align="center"> The nameSpace Community WEBSITE </h1>
+<h1 align="center"> NAMESPACE BPIT WEBSITE </h1>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/namespacecomm/namespace-community-website?)
-![GitHub forks](https://img.shields.io/github/forks/namespacecomm/namespace-community-website?)
-![GitHub watchers](https://img.shields.io/github/watchers/namespacecomm/namespace-community-website?)
+![GitHub stars](https://img.shields.io/github/stars/namespacecomm/namespace-bpit-website?)
+![GitHub forks](https://img.shields.io/github/forks/namespacecomm/namespace-bpit-website?)
+![GitHub watchers](https://img.shields.io/github/watchers/namespacecomm/namespace-bpit-website?)
 
-![Repo. Size](https://img.shields.io/github/repo-size/namespacecomm/namespace-community-website?)
+![Repo. Size](https://img.shields.io/github/repo-size/namespacecomm/namespace-bpit-website?)
 ![GitHub Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?)
-![GitHub contributors](https://img.shields.io/github/contributors/namespacecomm/namespace-community-website?)
-![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/namespacecomm/namespace-community-website?)
-![GitHub PR Open](https://img.shields.io/github/issues-pr/namespacecomm/namespace-community-website?)
-![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/namespacecomm/namespace-community-website?)
-![GitHub language count](https://img.shields.io/github/languages/count/namespacecomm/namespace-community-website?)
-![GitHub top language](https://img.shields.io/github/languages/top/namespacecomm/namespace-community-website?)
-![GitHub last commit](https://img.shields.io/github/last-commit/namespacecomm/namespace-community-website?)
+![GitHub contributors](https://img.shields.io/github/contributors/namespacecomm/namespace-bpit-website?)
+![GitHub Closed issues](https://img.shields.io/github/issues-closed-raw/namespacecomm/namespace-bpit-website?)
+![GitHub PR Open](https://img.shields.io/github/issues-pr/namespacecomm/namespace-bpit-website?)
+![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/namespacecomm/namespace-bpit-website?)
+![GitHub language count](https://img.shields.io/github/languages/count/namespacecomm/namespace-bpit-website?)
+![GitHub top language](https://img.shields.io/github/languages/top/namespacecomm/namespace-bpit-website?)
+![GitHub last commit](https://img.shields.io/github/last-commit/namespacecomm/namespace-bpit-website?)
 
 </div>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
 
 <p align="center">
- <strong> The official website of The nameSpace Community and Organization </strong>
+ <strong> The official website of NAMESPACE BPIT </strong>
    <br>
   <br />
-    <strong> <a href="https://www.namespacecomm.in/">Visit the Official Website » </strong></a> 
+    <strong> <a href="https://www.bpit.namespacecomm.in/">Visit the Official Website » </strong></a> 
     <br />
-    <a href="https://github.com/namespacecomm/namespace-community-website/issues/new?assignees=&labels=bug%2CPriority-High%2Cwant+fix%2CReview+Required&template=bug_report.yml&title=%5BBug%5D%3A+">Report Bug</a>
+    <a href="https://github.com/namespacecomm/namespace-bpit-website/issues/new?assignees=&labels=bug%2CPriority-High%2Cwant+fix%2CReview+Required&projects=&template=bug_report.yml&title=%5BBug%5D%3A+">Report Bug</a>
     ·
-    <a href="https://github.com/namespacecomm/namespace-community-website/issues/new?assignees=&labels=documentation%2Cenhancement%2Cgood+first+issue&template=doc_report.yml&title=%5BDoc%5D%3A+">Documentation Request</a>
+    <a href="https://github.com/namespacecomm/namespace-bpit-website/issues/new?assignees=&labels=documentation%2Cenhancement%2Cgood+first+issue&projects=&template=doc_report.yml&title=%5BDoc%5D%3A+">Documentation Request</a>
 	.
-	<a href="https://github.com/namespacecomm/namespace-community-website/issues/new?assignees=&labels=feature%2CReview+Required&template=feature_request.yml&title=%5BFeature%5D%3A+">Feature Request</a>
+	<a href="https://github.com/namespacecomm/namespace-bpit-website/issues/new?assignees=&labels=feature%2CReview+Required&projects=&template=feature_request.yml&title=%5BFeature%5D%3A+">Feature Request</a>
   </p>
 
 <!-- ---------------------------------------------------------------------------------------------------------------------- -->
@@ -138,9 +138,9 @@ Read more about it <a href="https://www.digitalocean.com/community/tutorial_seri
 
 ## Contribution Guidelines
 
-<a href="https://github.com/namespacecomm/namespace-community-website"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=royalblue"></a>
-<a href="https://github.com/namespacecomm/namespace-community-website"><img src="https://img.shields.io/github/contributors/namespacecomm/namespace-community-website?color=royalblue&style=flat-square"></a>
-<a href="https://github.com/namespacecomm/namespace-community-website"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?color=royalblue&style=flat-square"></a>
+<a href="https://github.com/namespacecomm/namespace-bpit-website"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=royalblue"></a>
+<a href="https://github.com/namespacecomm/namespace-bpit-website"><img src="https://img.shields.io/github/contributors/namespacecomm/namespace-community-website?color=royalblue&style=flat-square"></a>
+<a href="https://github.com/namespacecomm/namespace-bpit-website"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?color=royalblue&style=flat-square"></a>
 
 #### 🔑Guidelines
 
@@ -168,15 +168,15 @@ it is an Issue or a Pull Request.
 
 - Clone the Forked Repository to your local machine.
   ```
-  git clone https://github.com/namespacecomm/namespace-community-website
+  git clone https://github.com/namespacecomm/namespace-bpit-website
   ```
-- Change the directory to namespace-community-website.
+- Change the directory to namespace-bpit-website.
   ```bash
-  cd namespace-community-website
+  cd namespace-bpit-website
   ```
 - Add remote to the Original Repository.
   ```
-  git remote add upstream https://github.com/namespacecomm/namespace-community-website
+  git remote add upstream https://github.com/namespacecomm/namespace-bpit-website
   ```
 - Check the remotes for this repository.
   `    git remote -v`
@@ -206,7 +206,7 @@ it is an Issue or a Pull Request.
 ### Install dependencies
 
 ```
-cd namespace-community-website
+cd namespace-bpit-website
 npm install
 npm start
 ```
@@ -218,16 +218,16 @@ npm start
 ## Contributors
 
 <div align="center">
-<a href="https://github.com/namespacecomm/namespace-community-website"><img src="https://forthebadge.com/images/badges/built-by-developers.svg"  ></a> 
-<a href="https://github.com/namespacecomm/namespace-community-website"><img src="https://forthebadge.com/images/badges/built-with-love.svg"  ></a> 
+<a href="https://github.com/namespacecomm/namespace-bpit-website"><img src="https://forthebadge.com/images/badges/built-by-developers.svg"  ></a> 
+<a href="https://github.com/namespacecomm/namespace-bpit-website"><img src="https://forthebadge.com/images/badges/built-with-love.svg"  ></a> 
 </div>
 <br>
 <div>
 <h1 align="center">
  <b>Thanks to these amazing people
 <h1>
-<a href="https://github.comnamespacecomm/namespace-community-website/contributors">
-  <img src="https://contrib.rocks/image?repo=namespacecomm/namespace-community-website&&max=817" />
+<a href="https://github.comnamespacecomm/namespace-bpit-website/contributors">
+  <img src="https://contrib.rocks/image?repo=namespacecomm/namespace-bpit-website&&max=817" />
 </a>
 </div>
 
@@ -258,8 +258,9 @@ If you have any feedback or suggestions please reach out to maintainers.
 - [Pradeepto Sarkar](https://github.com/pradeeptosarkar)
 - [Pranav Barthwal](https://github.com/PranavBarthwal)
 - [Diksha Sharma](https://github.com/DikshaDhasmana)
+- [Sujal Gupta](https://github.com/sujal-98)
 
-Or you can create a <a href="https://github.com/namespacecomm/namespace-community-website/issues/new?assignees=&labels=feature%2CReview+Required&template=feature_request.yml&title=%5BFeature%5D%3A+">issue</a> and mention there, which features can make this Project better.
+Or you can create a <a href="https://github.com/namespacecomm/namespace-bpit-website/issues/new?assignees=&labels=feature%2CReview+Required&projects=&template=feature_request.yml&title=%5BFeature%5D%3A+">issue</a> and mention there, which features can make this Project better.
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 
