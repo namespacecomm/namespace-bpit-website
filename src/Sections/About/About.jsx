@@ -96,7 +96,7 @@ const About = () => {
           <Right>
             <Title>About NAMESPACE BPIT</Title>
             <Desc>
-            NAMESPACE BPIT (formerly NSCC BPIT), is the dynamic technical society of Bhagwan Parshuram Institute of Technology (BPIT) and a subset of The NAMESPACE Community, dedicated to fostering a vibrant community focused on peer support, tech awareness, skill development, and innovation. We organize various activities such as webinars, contests, and events to promote learning and growth among our members. At NAMESPACE BPIT, we cultivate a strong coding culture and provide a platform for members to interact with peers and seniors, creating an environment of collaboration and continuous learning. 
+            NAMESPACE BPIT (formerly NSCC BPIT), is the dynamic technical society of Bhagwan Parshuram Institute of Technology (BPIT) and a proud subset of The NAMESPACE Community, dedicated to fostering a vibrant community focused on peer support, tech awareness, skill development, and innovation. We organize various activities such as webinars, contests, and events to promote learning and growth among our members. At NAMESPACE BPIT, we cultivate a strong coding culture and provide a platform for members to interact with peers and seniors, creating an environment of collaboration and continuous learning. 
             </Desc>
           </Right>
         </Container>
