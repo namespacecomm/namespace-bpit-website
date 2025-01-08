@@ -165,6 +165,7 @@ const Desc = styled.p`
 const ShortDesc = styled.p`
   font-size: 1.5rem;
   text-align:center;
+  font-style: normal; 
   color: lightgray;
   padding-top: 8px;
   margin-top: 4px;
@@ -230,7 +231,7 @@ const Hero = () => {
             <WhatWeDo>
               
             </WhatWeDo>
-            <ShortDesc><p><i>Infinite Horizons, One Community</i></p></ShortDesc>
+            <ShortDesc><p>Backed by <b>The NAMESPACE Community</b></p></ShortDesc>
             
             
           </Left>          
