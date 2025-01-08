@@ -94,9 +94,15 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 125px;
-  font-weight: 700;
+  font-size: 200px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
   text-align: center;
+  background: linear-gradient(45deg, #3530cf 0%,
+    #44cfcf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glow 2s infinite alternate;
 
   @media only screen and (max-width: 768px) {
     font-size: 40px;
@@ -105,7 +111,7 @@ const Title = styled.h1`
     font-size: 125px;
   }
   @media only screen and (min-width: 1030px) and (max-width: 1400px) {
-    font-size: 125px;
+    font-size: 5.5rem;
   }
   @media only screen and (max-width: 760px) {
     font-size: 50px;
@@ -157,11 +163,13 @@ const Desc = styled.p`
     align-items: center;
 `;
 const ShortDesc = styled.p`
-  font-size: 32px;
+  font-size: 1.5rem;
   text-align:center;
+  font-style: normal; 
   color: lightgray;
   padding-top: 8px;
   margin-top: 4px;
+  color: rgba(255,255,255,0.8);
 
   @media only screen and (max-width: 1030px) {
     font-size: 26px;
@@ -218,12 +226,12 @@ const Hero = () => {
       <Section>
         <Container>
           <Left>
-            <Subtitle>THE</Subtitle>
-            <Title>nameSpace</Title>
+            
+            <Title>NAMESPACE BPIT</Title>
             <WhatWeDo>
-              <Subtitle>COMMUNITY</Subtitle>
+              
             </WhatWeDo>
-            <ShortDesc><p><i>Infinite Horizons, One Community</i></p></ShortDesc>
+            <ShortDesc><p>Backed by <b>The NAMESPACE Community</b></p></ShortDesc>
             
             
           </Left>          
