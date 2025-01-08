@@ -116,10 +116,11 @@ const NavbarLinkExtended = styled(Link)`
 `;
 
 const Logo = styled.img`
-  height: 120px;
+  // height: 120px;
+  height: 45px;
   align-self: center;
   @media (max-width: 900px) {
-    height: 100px;
+    height: 45px;
   }
 `;
 
@@ -211,10 +212,24 @@ function Navbar() {
       <NavbarInnerContainer>
         <SecondContainer>
           <NavbarLogo to="/">
-            <Logo src="../.././img/horizontal-5.png" alt="Logo" />
+            <Logo src="../.././img/namespace-bpit logo.png" alt="Logo" />
           </NavbarLogo>
 
           <NavLinks>
+          <NavbarLink
+              to="https://www.namespacecomm.in"
+              className={activeNavLink === "/aboutcommunity" ? "active" : ""}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div>
+                About Community 
+                {activeNavLink === "/aboutcommunity" && (
+                  <hr className="border-3 rounded-full" />
+                )}
+              </div>
+            </NavbarLink>
+            
             <NavbarLink
               to="/projects"
               className={activeNavLink === "/projects" ? "active" : ""}
@@ -238,7 +253,7 @@ function Navbar() {
                 )}
               </div>
             </NavbarLink>
-            <NavbarLink
+            {/* <NavbarLink
               to="#"
               className={activeNavLink === "/events" ? "active" : ""}
               onClick={handleDropdownToggle}
@@ -258,7 +273,7 @@ function Navbar() {
                 <DropdownItem to="/hackhazards">HACKHAZARDS</DropdownItem>
                 <DropdownItem to="/events">All Events</DropdownItem>
               </DropdownMenu>
-            </NavbarLink>
+            </NavbarLink> */}
             <NavbarLink
               to="/programs"
               className={activeNavLink === "/programs" ? "active" : ""}
@@ -270,14 +285,14 @@ function Navbar() {
                 )}
               </div>
             </NavbarLink>
-            <NavbarLink
+            {/* <NavbarLink
               to="https://namespacecomm.substack.com/"
               target="_blank"
               without
               rel="noreferrer"
             >
               <div>Newsletter</div>
-            </NavbarLink>
+            </NavbarLink> */}
             <NavbarLink
               to="/team"
               className={activeNavLink === "/team" ? "active" : ""}
@@ -300,7 +315,7 @@ function Navbar() {
                 )}
               </div>
             </NavbarLink>
-            <NavbarLink
+            {/* <NavbarLink
               to="/chapters"
               className={activeNavLink === "/chapters" ? "active" : ""}
             >
@@ -310,8 +325,8 @@ function Navbar() {
                   <hr className="border-3 rounded-full" />
                 )}
               </div>
-            </NavbarLink>
-            <NavbarLink
+            </NavbarLink> */}
+            {/* <NavbarLink
               to="#"
               className={activeNavLink === "/partners" ? "active" : ""}
               onClick={handlePartnersDropdownToggle}
@@ -334,15 +349,15 @@ function Navbar() {
                   Become a Campus Evangelist
                 </DropdownItem>
               </DropdownMenu>
-            </NavbarLink>
-            <NavbarLink
+            </NavbarLink> */}
+            {/* <NavbarLink
               to="http://blog.namespacecomm.in/"
               target="_blank"
               without
               rel="noreferrer"
             >
               <div>Blog</div>
-            </NavbarLink>
+            </NavbarLink> */}
 
             {/* <NavbarLink
               to="/CodingChallenge"
@@ -377,15 +392,15 @@ function Navbar() {
         <NavbarExtendedContainer>
           <NavbarLinkExtended to="/">Home</NavbarLinkExtended>
           <NavbarLinkExtended to="/projects">Projects</NavbarLinkExtended>
-          <NavbarLinkExtended to="/events">Events</NavbarLinkExtended>
+          {/* <NavbarLinkExtended to="/events">Events</NavbarLinkExtended> */}
           <NavbarLinkExtended to="/programs">Programs</NavbarLinkExtended>
-          <NavbarLinkExtended 
+          {/* <NavbarLinkExtended 
           to="https://namespacecomm.substack.com/"
           target="_blank"
           without
           rel="noreferrer">
             Newsletter
-          </NavbarLinkExtended>
+          </NavbarLinkExtended> */}
           
           <NavbarLinkExtended to="/team">Team</NavbarLinkExtended>
           <NavbarLinkExtended to="/resources">Resources</NavbarLinkExtended>
@@ -401,14 +416,14 @@ function Navbar() {
           <NavbarLinkExtended to="/campusevangelist">
             Become a Campus Evangelist
           </NavbarLinkExtended>
-          <NavbarLinkExtended
+          {/* <NavbarLinkExtended
             to="http://blog.namespacecomm.in/"
             target="_blank"
             without
             rel="noreferrer"
           >
             Blog
-          </NavbarLinkExtended>
+          </NavbarLinkExtended> */}
           {/* <NavbarLinkExtended to="/codingchallenge">
             Coding Challenge
           </NavbarLinkExtended> */}
