@@ -94,7 +94,7 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 200px;
+  font-size: 120px;
   font-family: 'Arial', sans-serif;
   font-weight: bold;
   text-align: center;
@@ -108,7 +108,7 @@ const Title = styled.h1`
     font-size: 40px;
   }
   @media only screen and (max-width: 1030px) {
-    font-size: 125px;
+    font-size: 100px;
   }
   @media only screen and (min-width: 1030px) and (max-width: 1400px) {
     font-size: 5.5rem;
