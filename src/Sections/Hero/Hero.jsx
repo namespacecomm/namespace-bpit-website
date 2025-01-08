@@ -94,7 +94,7 @@ const Left = styled.div`
 `;
 
 const Title = styled.h1`
-  font-size: 120px;
+  font-size: 110px;
   font-family: 'Arial', sans-serif;
   font-weight: bold;
   text-align: center;
