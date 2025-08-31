@@ -1,1 +1,133 @@
-//advisors
+
+[
+    {
+        "image":"",
+        "name": "Pranav Barthwal",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Diksha Sharma",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Jyoti Ahuja",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Prerna Jha",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Aryan Pillai",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Sahil Tyagi",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Sujal Gupta",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Mokshit Garg",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Shivank Kapur",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Yuvan Grover",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Jatin Gera",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Ankur Sharma",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    },
+    {
+        "image": "",
+        "name": "Prabal Aggarwal",
+        "position": "Advisor",
+        "team": "",
+        "github": "",
+        "linkedin": "",
+        "instagram": "",
+        "twitter": ""
+    }
+]

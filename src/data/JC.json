@@ -1,1 +1,94 @@
-//jc
+
+{
+    "info" : [
+        {
+            "name" : "Mayank Jha",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "https://github.com/MayankJha8274",
+            "linkedin" : "https://www.linkedin.com/in/mayank-jha-08b25832a",
+            "instagram" : ""
+        },
+        {
+            "name" : "Shraddhanjali Barik",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "https://github.com/Shraddhanjali04",
+            "linkedin" : "https://www.linkedin.com/in/shraddhanjali-barik-00bb9634b/",
+            "instagram" : ""
+        },
+        {
+            "name" : "Anugya Sharma",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "",
+            "linkedin" : "",
+            "instagram" : ""
+        },
+        {
+            "name" : "Arnab Maity",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "https://github.com/arnab-maity007",
+            "linkedin" : "https://www.linkedin.com/in/arnab-maity-860050229/",
+            "instagram" : ""
+        },
+        {
+            "name" : "Parth Gupta",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "https://github.com/ParthGupta1304",
+            "linkedin" : "http://linkedin.com/in/parth-gupta-0a4076266",
+            "instagram" : ""
+        },
+        {
+            "name" : "Vidhi",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "",
+            "linkedin" : "",
+            "instagram" : ""
+        },
+        {
+            "name" : "Devesh Kumar",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "",
+            "linkedin" : "",
+            "instagram" : ""
+        },
+        {
+            "name" : "Divyansh Shukla",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "",
+            "linkedin" : "",
+            "instagram" : ""
+        },
+        {
+            "name" : "Parth Singh",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "",
+            "linkedin" : "",
+            "instagram" : ""
+        },
+        {
+            "name" : "Sahil Mishra",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "",
+            "linkedin" : "",
+            "instagram" : ""
+        },
+        {
+            "name" : "Shivam Bhardwaj",
+            "image" : "",
+            "position" : "Junior Council",
+            "github" : "",
+            "linkedin" : "",
+            "instagram" : ""
+        }
+    ]
+}
+
