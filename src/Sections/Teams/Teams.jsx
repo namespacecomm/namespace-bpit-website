@@ -1,6 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
-import { members1, members2 } from "../../constants/constants";
+import sc from "../../data/SC.json";
+import jcData from "../../data/JC.json";
+import advisorsData from "../../data/Advisors.json";
+import { allmembers as constantsAll } from "../../constants/constants";
 import TeamCard from "./TeamCard";
 import Slider from "react-slick";
 import { useInView } from "react-intersection-observer";
@@ -127,6 +130,16 @@ function Teams() {
       },
     ],
   };
+  const jc = Array.isArray(jcData) ? jcData : jcData.info || [];
+  const members1 = [...(sc || []), ...jc];
+  const members2 = Array.isArray(advisorsData) ? advisorsData : advisorsData.info || [];
+  const normalize = (s) => (s || "").toString().replace(/\s+/g, " ").trim().toLowerCase();
+  const getImageFromConstants = (name) => {
+    if (!name) return "";
+    const n = normalize(name);
+    const found = (constantsAll || []).find((m) => normalize(m.name) === n);
+    return (found && found.image) || "";
+  };
   return (
     <Section>
       <Container>
@@ -140,7 +153,7 @@ function Teams() {
             </h2>
 
             <h4 className="text-xl md:text-2xl font-bold pt-8">
-              Senior and Junior Councils for 2024-25
+              Senior and Junior Councils for 2025-26
             </h4>
             
             <Carousal ref={ref}>
@@ -168,10 +181,11 @@ function Teams() {
             <Carousal ref={ref}>
               <Slider ref={sliderRef} {...settings}>
                 {members2.map((member) => {
+                  const image = member.image && member.image.trim() ? member.image : getImageFromConstants(member.name);
                   return (
                     <TeamCard
                       key={member.name}
-                      image={member.image}
+                      image={image}
                       name={member.name}
                       position={member.position}
                       linkedin={member.linkedin}
