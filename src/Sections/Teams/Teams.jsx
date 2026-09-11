@@ -153,7 +153,7 @@ function Teams() {
             </h2>
 
             <h4 className="text-xl md:text-2xl font-bold pt-8">
-              Senior and Junior Councils for 2025-26
+              Senior and Junior Councils for 2026-27
             </h4>
             
             <Carousal ref={ref}>

@@ -76,7 +76,22 @@ function TeamCard({ image, name, position,github,linkedin, instagram ,twitter })
         <img
           src={image}
           alt="Person"
-          className="card__image"
+          className="card__image" 
+          style={
+           name === "Harsh Rawat"
+           ? { objectPosition: "center 10%" }
+           : name === "Avni Gupta"
+           ? { objectPosition: "center 10%" }
+           : name === "Kanishk Chandola"
+           ? { objectPosition: "center 10%" }
+           : name === "Yash Vasudeva"
+           ? { objectPosition: "center 10%" }
+           : name === "Dhruv Bansal"
+           ? { objectPosition: "center 10%" }
+           : name === "Eklavya Sharma"
+           ? { objectPosition: "center 10%" }
+           : {}
+          }         
         />
         <p className="card__name">{name}</p>
         <p className="card__role">{position}</p>

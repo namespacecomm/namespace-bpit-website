@@ -1,66 +1,59 @@
 [
     {
-        "name": "Romanch Roshan Singh",
-        "image": "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055683/Romanch_rzcssi.png",
-        "position": "President",
-        "github": "",
-        "linkedin": "",
+        "name" : "Parth Gupta",
+        "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789151827/Parth_Gupta.jpg",
+        "position" : "President",
+        "github" : "https://github.com/ParthGupta1304",
+        "linkedin" : "http://linkedin.com/in/parth-gupta-0a4076266",
+        "instagram" : ""
+    },
+    {
+        "name" : "Arnab Maity",
+        "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789151923/IMG20260613182201.jpg",
+        "position" : "Vice President",
+        "github" : "https://github.com/arnab-maity007",
+        "linkedin" : "https://www.linkedin.com/in/arnab-maity-860050229/",
+        "instagram" : ""
+    },
+    {
+        "name" : "Divyansh Shukla",
+        "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789151697/Divyanshhhhhhhh.jpg",
+        "position" : "Director of Operations and Partnerships",
+        "github" : "",
+        "linkedin" : "",
+        "instagram" : ""
+    },
+    {
+        "name" : "Shraddhanjali Barik",
+        "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789151772/Shraddhanjali.jpg",
+        "position" : "Social Media and Content Lead",
+        "github" : "https://github.com/Shraddhanjali04",
+        "linkedin" : "https://www.linkedin.com/in/shraddhanjali-barik-00bb9634b/",
+        "instagram" : ""
+    },
+    
+    {
+        "name": "Yash Vasudeva",
+        "image": "https://res.cloudinary.com/jcvtd76x/image/upload/v1789151744/Yash_Vasudeva.jpg",
+        "position": "Graphics Lead",
+        "github": "https://github.com/yashvasudeva1",
+        "linkedin": "https://www.linkedin.com/in/yash-vasudeva",
         "instagram": ""
     },
     {
-        "name": "Shreya Jaiswal",
-        "image": "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055679/Shreya_nafphd.jpg",
-        "position": "Vice President",
-        "github": "",
-        "linkedin": "",
-        "instagram": ""
+        "name" : "Mayank Jha",
+        "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789151802/Mayank_Jha.jpg",
+        "position" : "Skill Enhancement Lead 1",
+        "github" : "https://github.com/MayankJha8274",
+        "linkedin" : "https://www.linkedin.com/in/mayank-jha-08b25832a",
+        "instagram" : ""
     },
     {
-        "name": "Krish Mishra",
-        "image": "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055681/Krish_t3hsio.jpg",
-        "position": "Director of Operations",
-        "github": "",
-        "linkedin": "",
-        "instagram": ""
-    },
-    {
-        "name": "Vrinda Bindal",
-        "image": "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055681/Vrinda_ek-hi-picture-hai_jbln4w.jpg",
-        "position": "Marketing and Social Media Lead",
-        "github": "",
-        "linkedin": "",
-        "instagram": ""
-    },
-    {
-        "name": "Lavanya Varshney",
-        "image": "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055680/Lavanya_w4e0kl.jpg",
-        "position": "Marketing and Social Media Lead",
-        "github": "",
-        "linkedin": "",
-        "instagram": ""
-    },
-    {
-        "name": "Ranjan",
-        "image": "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055687/Priority_1_ut5kmt.jpg",
-        "position": "Graphics and Design Lead",
-        "github": "",
-        "linkedin": "",
-        "instagram": ""
-    },
-    {
-        "name": "Athrav Gupta",
-        "image": "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055684/1000191169_cotf8q.jpg",
-        "position": "Sponsorship and Partnership Lead",
-        "github": "",
-        "linkedin": "",
-        "instagram": ""
-    },
-    {
-        "name": "Aryan Shrivastav",
-        "image": "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055683/Aryan_zzdcgk.jpg",
-        "position": "Graphics and Design Lead",
-        "github": "",
-        "linkedin": "",
-        "instagram": ""
+        "name" : "Harsh Rawat",
+        "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789151856/harsh_sc.jpg",
+        "position" : "Skill Enhancement Lead 2",
+        "github" : "https://github.com/Harsh-Rawat1706",
+        "linkedin" : "https://www.linkedin.com/in/harsh-rawat-553850377",
+        "instagram" : ""
     }
 ]
