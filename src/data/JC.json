@@ -2,100 +2,100 @@
 {
     "info" : [
         {
-            "name" : "Mayank Jha",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055633/IMG_20250808_235913_ge4nu8.jpg",
+            "name" : "Kanishk Chandola",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789152473/Kanishk.jpg",
             "position" : "Junior Council",
-            "github" : "https://github.com/MayankJha8274",
-            "linkedin" : "https://www.linkedin.com/in/mayank-jha-08b25832a",
+            "github" : "https://github.com/kanishk10-ux",
+            "linkedin" : "https://www.linkedin.com/in/kanishk-chandola-308aba36a",
             "instagram" : ""
         },
         {
-            "name" : "Shraddhanjali Barik",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055631/Shraddhanjali_Barik_1_dkogcb.jpg",
+            "name" : "Tushar Kumar",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789152532/Tushar.jpg",
             "position" : "Junior Council",
-            "github" : "https://github.com/Shraddhanjali04",
-            "linkedin" : "https://www.linkedin.com/in/shraddhanjali-barik-00bb9634b/",
+            "github" : "https://github.com/tusharrr0302",
+            "linkedin" : "https://www.linkedin.com/in/tusharrr0302/",
             "instagram" : ""
         },
         {
-            "name" : "Anugya Sharma",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757169908/Anugya_Sharma_ECE-B_vmlkoc.jpg",
+            "name" : "Kashvi Mittal",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789152599/Kashvi.jpg",
             "position" : "Junior Council",
-            "github" : "",
-            "linkedin" : "",
+            "github" : "https://github.com/Kashu-ipu",
+            "linkedin" : "https://www.linkedin.com/in/kashvi-mittal-70452837b/",
             "instagram" : ""
         },
         {
-            "name" : "Arnab Maity",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055631/ARNAB_MAITY_niergu.jpg",
+            "name" : "Gehna Dhamija",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789152634/Gehna.jpg",
             "position" : "Junior Council",
-            "github" : "https://github.com/arnab-maity007",
-            "linkedin" : "https://www.linkedin.com/in/arnab-maity-860050229/",
+            "github" : "https://github.com/gehnadhamija-hub",
+            "linkedin" : "https://www.linkedin.com/in/gehna-dhamija-b55117382/",
             "instagram" : ""
         },
         {
-            "name" : "Parth Gupta",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055631/Parth_Gupta_IT-_A_rhztru.jpg",
+            "name" : "Priyal Bansal",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789152708/PriyalBansal.png",
             "position" : "Junior Council",
-            "github" : "https://github.com/ParthGupta1304",
-            "linkedin" : "http://linkedin.com/in/parth-gupta-0a4076266",
+            "github" : "https://github.com/priyalbansal107-coder",
+            "linkedin" : "https://www.linkedin.com/in/priyalbansal-/",
             "instagram" : ""
         },
         {
-            "name" : "Vidhi",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055631/Vidhi_b8ov61.jpg",
+            "name" : "Bhavya Dawar",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789152747/Bhavya.png",
             "position" : "Junior Council",
-            "github" : "",
-            "linkedin" : "",
+            "github" : "https://github.com/bhavyadawar5791",
+            "linkedin" : "https://www.linkedin.com/in/bhavya-dawar-174672389/",
             "instagram" : ""
         },
         {
-            "name" : "Devesh Kumar",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055632/Devesh_Kumar_-_CSE_DS_yjisks.png",
+            "name" : "Riya Johari",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789152786/Riya.jpg",
             "position" : "Junior Council",
-            "github" : "",
-            "linkedin" : "",
+            "github" : "https://github.com/Riya-J05",
+            "linkedin" : "https://www.linkedin.com/in/riya-johari-547181259/",
+            "instagram" : ""
+        },
+         {
+            "name" : "Sarvagya Khandelwal",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789152818/sarvagya.jpg",
+            "position" : "Junior Council",
+            "github" : "https://github.com/Sarvagya-2509",
+            "linkedin" : "https://www.linkedin.com/in/sarvagya-khandelwal/",
             "instagram" : ""
         },
         {
-            "name" : "Divyansh Shukla",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055630/Divyansh_Shukla_ck8ydr.jpg",
+            "name" : "Anshika Tomar",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789152856/Anshika.png",
             "position" : "Junior Council",
-            "github" : "",
-            "linkedin" : "",
+            "github" : "https://github.com/anshikatomar021-ux",
+            "linkedin" : "https://www.linkedin.com/in/anshika-tomar-6090b1380",
+            "instagram" : ""
+        },
+         {
+            "name" : "Dhruv Bansal",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789153120/Dhruv.jpg",
+            "position" : "Junior Council",
+            "github" : "https://github.com/dhruvbansal640-gif",
+            "linkedin" : "https://www.linkedin.com/in/dhruv-bansal-193682381",
             "instagram" : ""
         },
         {
-            "name" : "Parth Singh",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757170007/IMG-20250329-WA0008_opc3vz.jpg",
+            "name" : "Avni Gupta",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789153156/Avni_Gupta.jpg",
             "position" : "Junior Council",
-            "github" : "",
-            "linkedin" : "",
+            "github" : "https://github.com/AvniGupta09",
+            "linkedin" : "https://www.linkedin.com/in/avni-gupta10/",
             "instagram" : ""
         },
         {
-            "name" : "Sahil Mishra",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055630/Sahil_Mishra_cse-ds_q3fajm.jpg",
+            "name" : "Eklavya Sharma",
+            "image" : "https://res.cloudinary.com/jcvtd76x/image/upload/v1789154365/Eklavya.png",
             "position" : "Junior Council",
-            "github" : "",
-            "linkedin" : "",
+            "github" : "https://github.com/EklavyaSharma-31",
+            "linkedin" : "https://www.linkedin.com/in/eklavya-sharma-92263a389/",
             "instagram" : ""
-        },
-        {
-            "name" : "Shivam Bhardwaj",
-            "image" : "https://res.cloudinary.com/dkrsznrnk/image/upload/v1757055632/Shivam_Bhardwaj_nluh3w.webp",
-            "position" : "Junior Council",
-            "github" : "",
-            "linkedin" : "",
-            "instagram" : ""
-        },
-        {
-            "name": "Yash Vasudeva",
-            "image": "https://res.cloudinary.com/dkrsznrnk/image/upload/v1760808905/20251012_173311_1_3_lrmf5k.jpg",
-            "position": "Junior Council",
-            "github": "",
-            "linkedin": "",
-            "instagram": ""
         }
     ]
 }
